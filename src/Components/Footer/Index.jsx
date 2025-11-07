@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <div className="bottom-6 text-sm md:text-base bg-black py-5 flex flex-col md:flex-row justify-between px-10 text-[#666666] text-center w-full">
-        <h1>Powered by Digital Lime Green</h1>
+        <h1>Powered by JIX Business Advice</h1>
         <div className="mt-2 flex justify-center space-x-4  text-lg">
           <a href="#" className="hover:text-[#2ea3f2]">
             <FaFacebookSquare />

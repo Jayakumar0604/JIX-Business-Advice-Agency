@@ -21,7 +21,7 @@ const BlogList = () => {
           <input
             type="text"
             placeholder="Search posts by title..."
-            className="w-full p-3 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500 shadow-sm"
+            className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -33,7 +33,7 @@ const BlogList = () => {
               <li key={post.id} className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
                 <Link
                   to={`/post/${post.id}`}
-                  className="text-green-600 hover:underline text-xl font-semibold block"
+                  className="text-blue-600 hover:underline text-xl font-semibold block"
                 >
                   {post.title}
                 </Link>
